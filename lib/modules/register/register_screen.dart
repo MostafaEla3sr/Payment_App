@@ -23,7 +23,7 @@ class RegisterScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Payment Integration'),
-          backgroundColor: Colors.purple.shade400,
+          backgroundColor: Colors.deepOrange.shade400,
           centerTitle: true,
         ),
         body: BlocConsumer<PaymentCubit, PaymentStates>(
@@ -46,7 +46,7 @@ class RegisterScreen extends StatelessWidget {
                   children: [
                     Container(
                       child: Image.asset(
-                        'assets/images/Delivery.png',
+                        'assets/images/image1.jpg',
                         width: MediaQuery.of(context).size.width,
                         height: MediaQuery.of(context).size.height * 0.42,
                       ),
@@ -156,7 +156,7 @@ class RegisterScreen extends StatelessWidget {
                             },
                             width: MediaQuery.of(context).size.width,
                             radius: 10.0,
-                            backgroundColor: Colors.purple.shade300,
+                            backgroundColor: Colors.deepOrange.shade400,
                           ),
                         ],
                       ),
